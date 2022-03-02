@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Sans:wght@700&display=swap");
+/* font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  width: 40rem;
+  margin: 0 auto;
+}
+.header-main {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.header-main h1 {
+  font-size: 4rem;
+  color: #232323;
+  font-family: "Noto Sans", sans-serif;
+}
+.header-main .logo {
+  width: 15%;
+  transform: scaleX(-1);
+}
+.header input {
+  height: 3rem;
+  padding-left: 10px;
+  font-size: 1.5rem;
+  width: 35rem;
+}
+.container {
+  min-height: 50rem;
+  margin-top: 20px;
+}
+.link:visited,
+.link:active,
+.link:hover,
+.link:link {
+  color: #232332;
+  text-decoration: none;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 5px;
+  background-color: #f1f3f5;
+  margin: 10px 0;
+}
+.card h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.description .emoji {
+  font-size: 1.8rem;
+}
+.description .description-text {
+  font-size: 1.2rem;
+}
